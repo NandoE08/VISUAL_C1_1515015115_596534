@@ -507,11 +507,11 @@ public class Postest4 extends javax.swing.JFrame {
         int ok = Integer.parseInt(berat.getText());
         if((reguler.isSelected()) && (req!=0)){
             ddiskon=Float.valueOf(diskon.getValue());
-            jumlah=(req*(24000))-((req*24000*ddiskon)/100);
+            jumlah=(req*(11500))-((req*11500*ddiskon)/100);
             hasil.setText(""+jumlah);
         }else if((oke.isSelected()) && (ok!=0)){
             ddiskon=Float.valueOf(diskon.getValue());
-            jumlah=(ok*34000)-((ok*34000*ddiskon)/100);
+            jumlah=((ok*11500)*150/100)-((ok*11500*ddiskon)/100);
             hasil.setText(""+jumlah);
         }
     }//GEN-LAST:event_prosesActionPerformed
