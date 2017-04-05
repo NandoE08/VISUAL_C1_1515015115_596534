@@ -67,6 +67,11 @@ public class formbiodata extends javax.swing.JFrame {
 
         kelamin.add(laki);
         laki.setText("LAKI-LAKI");
+        laki.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lakiActionPerformed(evt);
+            }
+        });
 
         kelamin.add(cewe);
         cewe.setText("PEREMPUAN");
@@ -221,6 +226,10 @@ public class formbiodata extends javax.swing.JFrame {
     private void programActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_programActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_programActionPerformed
+
+    private void lakiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lakiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lakiActionPerformed
 
     /**
      * @param args the command line arguments
