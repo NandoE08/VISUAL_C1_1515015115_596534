@@ -30,7 +30,7 @@ public class FormDataBuku extends javax.swing.JFrame {
     
     public Connection getConnection(){
     try{
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/visual","root","");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/praktikum_visual","root","");
         JOptionPane.showMessageDialog(null, "Connected Sucsesfully");
     }catch(SQLException e){
         JOptionPane.showMessageDialog(null, "Connection Filed !"+e.getMessage());
