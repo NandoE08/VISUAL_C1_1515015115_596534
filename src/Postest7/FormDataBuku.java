@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Postest6;
+package Postest7;
+import Postest6.*;
 import java.sql.*;
 import static java.sql.DriverManager.getConnection;
 import java.util.Map;
@@ -505,6 +506,8 @@ public class FormDataBuku extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(FormDataBuku.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
